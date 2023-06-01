@@ -1,0 +1,25 @@
+.nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo{
+        font-weight: bold;
+        font-size: 22px;
+        color: #000;
+    }
+
+    .menus{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .menu{
+
+        }
+        .logout{
+            background-color: #0048e494;
+            color: white;
+            border-radius: 3px;
+        }
+    }
+}
