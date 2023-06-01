@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 20px;
     .logo{
         font-weight: bold;
         font-size: 22px;
@@ -19,7 +20,7 @@
         .logout{
             background-color: #0048e494;
             color: white;
-            border-radius: 3px;
+            
         }
     }
 }
