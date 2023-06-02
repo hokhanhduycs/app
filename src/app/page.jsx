@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import style from './page.module.scss'
 import Hero from "public/hero.png"
+import Button from '@/components/button/Button';
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
               Warn Fast Refresh had to perform a full reload when
               src\app\page.module.scss.
            </p>
-           <button className={style.button}>See Our Word</button>
+           <Button url="/portfolio" text="See Our Word" />
         </div>
         <Image className={style.img} src={Hero} alt="image home" />
      </div>

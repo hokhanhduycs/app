@@ -1,3 +1,44 @@
 .category{
-    background-color: #fff;
+    .title{
+        color: #013375;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    .items{
+        .item{
+            display: flex;
+            gap: 50px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+
+            &:nth-child(2n){
+                flex-direction: row-reverse;
+            }
+            .content{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                .title{
+                    color: #bbb;
+                    font-size: 50px;
+
+                }
+                .desc{
+                    font-size: 18px;
+                }
+            }
+            .imgContainer{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                .img{
+                    height: 400px;
+                    object-fit: cover;
+                }
+            }
+
+        }
+    }
 }
